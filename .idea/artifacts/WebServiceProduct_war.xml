@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="WebServiceProduct:war">
+    <output-path>C:/三期中期课件/mavenWorkpaces/WebServiceProduct/target</output-path>
+    <root id="archive" name="WebServiceProduct.war">
+      <element id="artifact" artifact-name="WebServiceProduct:war exploded" />
+    </root>
+  </artifact>
+</component>

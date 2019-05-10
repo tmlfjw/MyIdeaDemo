@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" 
+ "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+  <generatorConfiguration>
+   <context id="my" targetRuntime="MyBatis3">
+        
+         <!-- 是否去除自动生成的注释 true：是 ： false:否 -->    
+         <commentGenerator>
+            <property name="suppressDate" value="false"/>
+            <property name="suppressAllComments" value="true"/>
+        </commentGenerator>
+  
+        <!-- 配置数据源-->
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://localhost:3306/firstmysql" userId="root" password="tml123"></jdbcConnection>
+         
+         
+          <!--      
+                          默认false，把JDBC dectmal 和 numeric 类型解析为 Integer    
+            true，把JDBC dectmal 和numeric 类型解析为java.math.BigDecimal      
+        -->          
+         <javaTypeResolver >
+           <property name="forceBigdecimals" value="false"/>
+         </javaTypeResolver>   
+         
+         <!-- 设置bean包的名称和所要创建的位置 -->     
+       <javaModelGenerator targetPackage="com.lanxin.bean"
+                           targetProject="src/main/java">
+       </javaModelGenerator>
+
+
+       <!-- 创建xml文件实现sql于bean之间的映射并指明位置 -->
+       <sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources"></sqlMapGenerator>
+
+       <!-- 创建dao的名称并指明要创建的位置-->
+       <javaClientGenerator  type="XMLMAPPER" targetPackage="com.lanxin.Dao"
+                             targetProject="src/main/java">
+       </javaClientGenerator >
+
+
+       <!-- 指明表（就是是指要创建那些bean） -->
+        <table tableName="orders" domainObjectName="Orders"></table>
+        <table tableName="users" domainObjectName="Users"></table>
+ 
+    </context>
+    </generatorConfiguration>
+    
+   

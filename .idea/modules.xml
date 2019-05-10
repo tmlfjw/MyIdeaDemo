@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../SpringBootDemos/SpringBootDemos.iml" filepath="$PROJECT_DIR$/../SpringBootDemos/SpringBootDemos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SpringbootActivemq2/SpringbootActivemq2.iml" filepath="$PROJECT_DIR$/../SpringbootActivemq2/SpringbootActivemq2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SprngbootActiveMQ.iml" filepath="$PROJECT_DIR$/SprngbootActiveMQ.iml" />
+      <module fileurl="file://C:/三期中期课件/mavenWorkpaces/WebServiceProduct/WebServiceProduct.iml" filepath="C:/三期中期课件/mavenWorkpaces/WebServiceProduct/WebServiceProduct.iml" />
+      <module fileurl="file://C:/三期中期课件/mavenWorkpaces/WebServicecommon/WebServicecommon.iml" filepath="C:/三期中期课件/mavenWorkpaces/WebServicecommon/WebServicecommon.iml" />
+      <module fileurl="file://C:/三期中期课件/mavenWorkpaces/WebServiceconstmer/WebServiceconstmer.iml" filepath="C:/三期中期课件/mavenWorkpaces/WebServiceconstmer/WebServiceconstmer.iml" />
+    </modules>
+  </component>
+</project>
