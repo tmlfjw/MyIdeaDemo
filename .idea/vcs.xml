@@ -3,6 +3,8 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../ActiveMQCustomer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../SpringbootActivemq2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../ZuulDemo" vcs="Git" />
     <mapping directory="C:\三期后期Demo\SprngbootActiveMQ\MyIdeaDemo" vcs="Git" />
     <mapping directory="C:\三期后期Demo\SprngbootActiveMQ\MyIdeaDemo\MyIdeaDemo" vcs="Git" />
   </component>
